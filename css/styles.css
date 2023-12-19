@@ -3,10 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*
+defino los colores que voy a utilizar
+*/
+:root {
+  --primary-color: #3498db;  
+  --secondary-color: #2980b9;  
+  --accent-color: #fa3419;  
+  --text-color: #333;  
+}
+
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #3498db;
     position: absolute;
     width: 100vw;
 }
@@ -23,7 +33,7 @@ header{
 
 .nav{
 width: 40vw;
-background-color: darkslategray;
+background-color: var(--secondary-color);
 border-radius: 10px;
 position: fixed;
 left:30%;
@@ -51,5 +61,18 @@ opacity: 0.5;
 }
 .nav ul li a:hover{
     color: #f5f5f5;
-    
+}
+
+.titulo{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.titulo h4{
+    font-size: 5.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
 }
