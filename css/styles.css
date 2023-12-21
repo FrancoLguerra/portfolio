@@ -96,6 +96,12 @@ opacity: 0.2;
     align-items: center;
     flex-direction: column;
 }
+.about h2{
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    text-align: center;
+    margin-bottom: 5%;
+}
 .contain-about{
     width: 100%;
     height: 80%;
@@ -113,20 +119,32 @@ opacity: 0.2;
     flex-direction: column;
     
 }
+.contain-about .texto p{
+    width: 80%;
+    text-align: left;
+    padding: 2% 0% 3% 0%;
+    
+}
 .contain-about .educacion{
     width: 50%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: initial;
     align-items: center;
     flex-direction: column;
 }
 .card-educacion {
-    padding:3% 1% 3% 1%;
+    width: 80%;
+    padding:2% 1% 2% 1%;
     border:solid 1px #ccc;
     margin-bottom: 1%;
     border-radius:5px;
     
+}
+.card-educacion h6{
+    font-size: .8rem;
+    color: var(--accent-color);
+    margin-top: 1rem;
 }
 
 .icono{
@@ -134,14 +152,15 @@ opacity: 0.2;
     height: auto;
     text-align: center;
     align-items: center;
-    background-color: #fa3419;
-    margin-bottom: 3%;
+    justify-content: center;
+  
 }
-.icono i{
-    font-size: 10rem;
-    color: white;
+.icono img{
+    width: 100%;
     padding: 1rem;
-    
+    border-radius: 50%;
+    border: solid 1px #ccc;
+    box-shadow: 0px 0px 10px 0px #ccc;
 }
 .skills{
     width: 100%;
