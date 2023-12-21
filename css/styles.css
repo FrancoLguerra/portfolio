@@ -109,6 +109,7 @@ opacity: 0.2;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    padding-bottom:2%;
 }
 .contain-about .texto{
     width: 50%;
@@ -192,7 +193,6 @@ opacity: 0.2;
 
 .card-skills img{
     width: 100%;
-    height: auto;
     border-radius: 50%;
     margin-bottom: 1rem;
 }
