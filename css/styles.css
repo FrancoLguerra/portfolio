@@ -102,14 +102,19 @@ opacity: 0.2;
     text-align: center;
     margin-bottom: 5%;
 }
+.about button{
+    margin-top: 2%;
+}
+
 .contain-about{
     width: 100%;
     height: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     padding-bottom:2%;
+    flex-wrap: wrap;
 }
 .contain-about .texto{
     width: 50%;
@@ -120,17 +125,17 @@ opacity: 0.2;
     flex-direction: column;
     
 }
-.contain-about .texto p{
-    width: 80%;
-    text-align: left;
+.contain-about  p{
+    text-align: center;
     padding: 2% 0% 3% 0%;
+    width: 80%;
     
 }
 .contain-about .educacion{
     width: 50%;
     height: 100%;
     display: flex;
-    justify-content: initial;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -140,14 +145,22 @@ opacity: 0.2;
     border:solid 1px #ccc;
     margin-bottom: 1%;
     border-radius:5px;
-    
+    box-shadow: 0px 0px 10px 0px #ccc;
+    background-color: var(--denso-color);
+    color: whitesmoke;
 }
 .card-educacion h6{
     font-size: .8rem;
     color: var(--accent-color);
     margin-top: 1rem;
 }
-
+.card-educacion h4{
+    text-align: center;
+}
+.card-educacion h5{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
 .icono{
     width:50%;
     height: auto;
@@ -171,7 +184,8 @@ opacity: 0.2;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: yellowgreen;
+    margin-top: 10%;
+   
     
 }
 .contains{
