@@ -193,6 +193,7 @@ opacity: 0.2;
     box-sizing: border-box;
 }
 .contain-skills{
+    padding-top:3%;
     width: 60%;
     display: flex;
     justify-content: space-between;
