@@ -284,6 +284,8 @@ form {
     flex-direction: row;
 }
 .footer p{
+    display: flex;
+    justify-content: center;
     font-size: 1rem;
     margin-right: 1rem;
     width: 30%;
@@ -292,5 +294,4 @@ form {
     text-decoration: none;
     color: whitesmoke;
     font-size: 1rem;
-    padding-left: 2%;
 }
