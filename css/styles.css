@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@300;400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,8 +12,10 @@
     --header-color: #1F2937;
     --primary-color: #3B82F6;
     --success-color: #10B981;
-    --secondary-color: #F97316;
+    --secondary-color: #ebc436;
     --border-color: #E5E7EB;
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
 }
     body {
     background-color: var(--bg-color);
@@ -21,15 +25,19 @@
 
 h1, h2, h3 {
     color: var(--header-color);
+    font-family: var(--font-secondary); 
+    color: var(--secondary-color);
+    
 }
+
 h2{
-    font-size: 2rem!important;
-    color: var(--accent-color)!important;
+    font-size: 3rem!important;
+    color: var(--secondary-color)!important;
     margin-bottom: 1rem;
 }
 
 button {
-    background-color: var(--primary-color);
+    background-color: rgb(74, 34, 74);
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -38,7 +46,7 @@ button {
 }
 
 button:hover {
-    background-color: #2563EB; /* Azul más oscuro */
+    background-color: #3440a0;
 }
 
 .primario{
@@ -111,12 +119,12 @@ opacity: 0.2;
 
 }
 .titulo h1 {
-    background: linear-gradient(90deg, #37608a, #10B981, #fffb24);
+    background: linear-gradient(90deg, #a4b5c5, #570759, #fffb24);
     background-size: 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
-    animation: gradientMove 5s infinite;
+    animation: gradientMove 4s infinite;
 }
 
 @keyframes gradientMove {
@@ -130,7 +138,9 @@ opacity: 0.2;
         background-position: 0% 50%;
     }
 }
-
+.titulo__profesion{
+    color:rgb(247, 238, 212)!important;
+}
 
 
 .titulo h2{
@@ -138,7 +148,7 @@ opacity: 0.2;
     color: var(--accent-color);
     text-align: center;
     margin-bottom: 1rem;
-    animation: typing 3s steps(15, end), blink 0.7s step-end infinite;
+    animation: typing 3s steps(15, end), blink 0.7s step-end, infinite;
 }
 .typing {
     display: inline-block;
@@ -275,6 +285,7 @@ opacity: 0.2;
     flex-direction: column;
     text-align: center;
     margin-top: 2%;
+    padding-bottom:10%;
    
     
 }
@@ -302,7 +313,7 @@ opacity: 0.2;
     margin-bottom: 1rem;
 }
 .projects{
-border:solid 1px white;
+    
     width: 100%;
     min-height: 50vh;
     display: flex;
@@ -311,6 +322,7 @@ border:solid 1px white;
     flex-direction: column;
     text-align: center;
     margin-top: 2%;
+    padding:5% 0% 5% 0% ;
 }
 .swiper {
     width: 80%;
@@ -330,7 +342,7 @@ border:solid 1px white;
 }
 
 .swiper-slide img {
-    width: 100%;
+    width: 20%;
     max-width: 500px;
     border-radius: 10px;
 }
@@ -377,7 +389,9 @@ form {
   .field label {
     display: block;
     font-size: 12px;
-    color: #1F2937;
+    color: whitesmoke;
+    padding-bottom: 2%;
+    padding-left: 1%;
   }
   
   .field input {
@@ -391,7 +405,7 @@ form {
     display: block;
     padding: 6px 30px;
     font-size: 14px;
-    background-color: #4460AA;
+    background-color: rgb(74, 34, 74);
     color: #fff;
     border: none;
     border-radius: 5px;

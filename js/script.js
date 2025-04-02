@@ -20,22 +20,15 @@ document.getElementById('form')
 });
 
 
-    var swiper = new Swiper(".mySwiper", {
-        loop: true,
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
+document.addEventListener("DOMContentLoaded", () => {
+  new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 30,
+      autoplay: { delay: 3000 },
+      navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+      pagination: { el: ".swiper-pagination", clickable: true }
+  });
+});
+
 
 
