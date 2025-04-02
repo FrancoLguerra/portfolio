@@ -301,6 +301,49 @@ opacity: 0.2;
     border-radius: 50%;
     margin-bottom: 1rem;
 }
+.projects{
+border:solid 1px white;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+}
+.swiper {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.swiper-slide img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.swiper-slide h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.swiper-slide p {
+    color: #666;
+}
+
 .contact {
     display: flex;
     padding: 40px;

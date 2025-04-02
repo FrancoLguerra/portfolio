@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="./css/styles.css">
         <script src="https://kit.fontawesome.com/3451d01f46.js" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/3451d01f46.js" crossorigin="anonymous"></script>
+        <!-- Swiper.js CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     </head>
     <body>
         <header id="home">
@@ -114,6 +116,32 @@
             </section>
             <section class="projects" id="projects">
                 <h2>Projects</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!-- Proyecto 1 -->
+                        <div class="swiper-slide">
+                            <img src="./assets/img/proyecto1.png" alt="Proyecto 1">
+                            <h3>Proyecto 1</h3>
+                            <p>Descripción breve del proyecto.</p>
+                        </div>
+                        <!-- Proyecto 2 -->
+                        <div class="swiper-slide">
+                            <img src="./assets/img/proyecto2.png" alt="Proyecto 2">
+                            <h3>Proyecto 2</h3>
+                            <p>Descripción breve del proyecto.</p>
+                        </div>
+                        <!-- Proyecto 3 -->
+                        <div class="swiper-slide">
+                            <img src="./assets/img/proyecto3.png" alt="Proyecto 3">
+                            <h3>Proyecto 3</h3>
+                            <p>Descripción breve del proyecto.</p>
+                        </div>
+                    </div>
+                    <!-- Botones de navegación -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </section>
             <section id="contact" class="contact">
                 <h2>Contact Me</h2>
@@ -147,5 +175,6 @@
     <script type="text/javascript">
     emailjs.init('N8tZ4jXBMBmqmU9zN')
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </html>
