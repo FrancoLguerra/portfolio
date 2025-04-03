@@ -443,9 +443,27 @@ form {
 }
 
 @media screen and (max-width: 768px) {
+    .about{
+        width: 100%;
+        min-height: auto !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 2%;
+        padding-bottom: 50px;
+    }
     .contain-about{
         flex-direction: column;
         
+    }
+    .descripcion-about{
+        width: 90%;
+        margin-top: 2%;
+        padding: 2% 0% 3% 0%;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 2%;
     }
     .texto{
         width: 100% !important;
@@ -457,6 +475,19 @@ form {
     }
     .card-educacion{
         width: 100%;
+    }
+    .skills{
+        min-height: auto;
+        padding-top: 100px;
+    }
+    .contain-skills{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .card-skills{
+        width: 35%;
+        margin-bottom: 1%;
     }
 
 }
