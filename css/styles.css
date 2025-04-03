@@ -451,7 +451,7 @@ form {
         align-items: center;
         flex-direction: column;
         margin-bottom: 2%;
-        padding-bottom: 50px;
+        padding-bottom: 50%;
     }
     .contain-about{
         flex-direction: column;
@@ -478,7 +478,7 @@ form {
     }
     .skills{
         min-height: auto;
-        padding-top: 100px;
+        padding-top: 10%;
     }
     .contain-skills{
         width: 100%;
@@ -488,6 +488,12 @@ form {
     .card-skills{
         width: 35%;
         margin-bottom: 1%;
+    }
+    .projects{
+        padding-top:50% !important;
+    }
+    form{
+        width:100%;
     }
 
 }
