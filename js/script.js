@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 function toggleMenu() {
   document.querySelector(".nav__menu--mobile").classList.toggle("active");
-  alert("Menu toggled!");
+ 
 }
 
 
