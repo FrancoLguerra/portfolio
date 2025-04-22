@@ -29,6 +29,10 @@ document.addEventListener("DOMContentLoaded", () => {
       pagination: { el: ".swiper-pagination", clickable: true }
   });
 });
+function toggleMenu() {
+  document.querySelector(".nav__menu--mobile").classList.toggle("active");
+  alert("Menu toggled!");
+}
 
 
 

@@ -77,7 +77,24 @@ header{
     align-items: center;
     
 }
+.hamburger{
+   border:solid 3px;
+   position: fixed;
+    top: 1%;
+    right: 1%;
+    display: none;
+   
+    
+}
+.nav__menu--mobile{
+    display: none;
+    position: fixed;
+    top: 1%;
+    right: 50%;
+    border:solid 2px;
 
+  
+}
 .nav{
 width: 40vw;
 background-color:var(--header-color);
@@ -220,6 +237,9 @@ opacity: 0.2;
     padding: 2% 5% 3% 5%;
     width: 100%;
     margin-bottom: 2%;
+   
+        color:#a4b5c5 !important;
+    
     
 }
 .descripcion-about{
@@ -322,6 +342,7 @@ opacity: 0.2;
     flex-direction: column;
     text-align: center;
     margin-top: 2%;
+    margin-bottom: 2%;
     padding:5% 0% 5% 0% ;
 }
 .swiper {
@@ -443,6 +464,17 @@ form {
 }
 
 @media screen and (max-width: 768px) {
+  
+    .hamburger{
+        display:block;
+    }
+    .active{
+        display: block;;
+    }
+    .nav__menu{
+        display:none !important;
+    }
+    
     .about{
         width: 100%;
         min-height: auto !important;
@@ -464,7 +496,9 @@ form {
         text-align: center;
         font-size: 1.2rem;
         margin-bottom: 2%;
+       
     }
+    
     .texto{
         width: 100% !important;
         padding-bottom:3%;
