@@ -79,13 +79,14 @@ header{
     
 }
 .hamburger{
-   border:solid 3px;
+   border:solid 1px;
    position: fixed;
     top: 1%;
     right: 1%;
     display: none;
     z-index: 1000;
     color:#ccc;
+    border-radius: 15%;
    
     
 }
@@ -100,19 +101,28 @@ header{
     align-items: center;
     flex-direction: column;
     background-color: var(--header-color);
+    transition: 0.5s;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    border: solid 1px #ccc;
+    overflow: hidden;
   
 }
 .mobile-menu li{
     list-style:none;
     text-align: center;
+   
 
 }
 .mobile-menu li a{
     text-decoration: none;
-    color: white;
     font-size: 1.5rem;
+    color:#a4b5c5;
     padding: 1rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+
 }
 
 .nav__menu--mobile{
