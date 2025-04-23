@@ -44,6 +44,7 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1rem;
 }
 
 button:hover {
@@ -487,6 +488,7 @@ form {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1.2rem;
 
   }
   input[type="submit"]:hover {

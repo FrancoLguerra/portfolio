@@ -2,6 +2,7 @@ const btn = document.getElementById('button');
 
 document.getElementById('form')
  .addEventListener('submit', function(event) {
+  
    event.preventDefault();
 
    btn.value = 'Sending...';
@@ -33,6 +34,11 @@ function toggleMenu() {
   document.querySelector(".nav__menu--mobile").classList.toggle("active");
  
 }
+document.querySelectorAll('.mobile-menu a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.querySelector(".nav__menu--mobile").classList.remove("active");
+  });
+});
 
 
 
