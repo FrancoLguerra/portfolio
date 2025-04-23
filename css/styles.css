@@ -33,6 +33,7 @@ h1, h2, h3 {
 h2{
     font-size: 3rem!important;
     color: var(--secondary-color)!important;
+    text-shadow: #1F2937 0px 0px 40px;
     margin-bottom: 1rem;
 }
 
@@ -169,11 +170,11 @@ opacity: 0.2;
 
 }
 .titulo h1 {
-    background: linear-gradient(90deg, #a4b5c5, #570759, #fffb24);
+    background: linear-gradient(90deg, #05315b, #0564d9, #4a203a);
     background-size: 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+    text-shadow: #9cbafa 0px 0px 50px;
     animation: gradientMove 4s infinite;
 }
 
@@ -189,16 +190,18 @@ opacity: 0.2;
     }
 }
 .titulo__profesion{
-    color:rgb(247, 238, 212)!important;
+    color:#a4b5c5;
 }
 
 
 .titulo h2{
     font-size: 5.5rem;
-    color: var(--accent-color);
+    
     text-align: center;
     margin-bottom: 1rem;
     animation: typing 3s steps(15, end), blink 0.7s step-end, infinite;
+    text-shadow: #111827 0px 0px 60px;
+
 }
 .typing {
     display: inline-block;
@@ -277,12 +280,20 @@ opacity: 0.2;
     
 }
 .descripcion-about{
+    display: flex;
     width:100%;
     margin-top: 2%;
     padding: 2% 0% 3% 0%;
     text-align: center;
     font-size: 1.2rem;
     margin-bottom: 2%;
+    justify-content: center;
+}
+.descripcion-about p{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #ccc;
 }
 .contain-about .educacion{
     width: 50%;
@@ -390,9 +401,10 @@ opacity: 0.2;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: #fff;
+    background:none;
     padding: 20px;
     border-radius: 10px;
+    border: solid  #ccc 0.5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -469,6 +481,12 @@ form {
   }
   input[type="submit"]:hover {
     background-color: #3440a0;
+  }
+  input[type="text"]{
+    border-radius: 5px;;
+  }
+  input[type="email"]{
+    border-radius: 5px;;
   }
 
 .footer{
